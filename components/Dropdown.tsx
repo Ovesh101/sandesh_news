@@ -39,7 +39,7 @@ export function DropdownTrigger({ children }) {
 export function DropdownMenu({ isOpen, children }) {
   return (
     isOpen && (
-      <div className="absolute right-0 mt-2   bg-red-600 bg-transparent text-white rounded-md shadow-lg z-20">
+      <div className="absolute right-0 mt-2 w-40  bg-primary bg-opacity-70 text-white  shadow-lg z-20">
         <div className="py-1">{children}</div>
       </div>
     )

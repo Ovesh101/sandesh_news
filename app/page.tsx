@@ -2,7 +2,10 @@ import { Button } from "@nextui-org/button"
 
 const page = () => {
   return (
-     <h1>Hello</h1>
+     <div className="h-[100vh] w-80 bg-red-700">
+      hello
+
+     </div>
   )
 }
 
