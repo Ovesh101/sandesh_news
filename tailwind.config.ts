@@ -8,7 +8,7 @@ const config: Config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+      "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   prefix: "",
   theme: {
@@ -18,7 +18,11 @@ const config: Config = {
       },
       colors: {
         primary: '#ae0a0b', // Red
+
         secondary: '#37332B', // Black
+        gray:"#eaeaea",
+        gray_secondry:"#2b2b2b"
+
       },
       container: {
         center: true,
@@ -43,7 +47,9 @@ const config: Config = {
       },
     },
   },
+
   plugins: [require("tailwindcss-animate"),nextui()],
+
 };
 
 export default config;
