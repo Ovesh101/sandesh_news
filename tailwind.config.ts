@@ -1,3 +1,4 @@
+import { nextui } from "@nextui-org/react";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -17,9 +18,11 @@ const config: Config = {
       },
       colors: {
         primary: '#ae0a0b', // Red
-        secondary: '#000000', // Black
+
+        secondary: '#37332B', // Black
         gray:"#eaeaea",
         gray_secondry:"#2b2b2b"
+
       },
       container: {
         center: true,
@@ -44,7 +47,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+
+  plugins: [require("tailwindcss-animate"),nextui()],
+
 };
 
 export default config;

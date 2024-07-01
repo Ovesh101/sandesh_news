@@ -1,12 +1,15 @@
-import { Button } from "@nextui-org/button"
+
+import React from 'react'
+import Category from '@/Category/Category'
+
 
 const page = () => {
   return (
-     <div className="h-[100vh] w-80 bg-red-700">
-      hello
-
-     </div>
+    <div className='w-[100vw] h-[100vh]'>
+     <Category/>
+    </div>
   )
 }
 
 export default page
+
