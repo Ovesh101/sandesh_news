@@ -36,7 +36,7 @@ function Footer() {
 
   return (
     <footer className="bg-gray  font-hindivadodara  w-full">
-      <div className="w-full  justify-between  flex min-h-[200px]  items-start">
+      <div className="w-full  justify-between flex min-h-[200px]  items-start">
         {/* Left Column */}
         <div className="flex flex-col basis-1/4 mt-2 ml-5 space-y-2">
           <div className="flex flex-wrap  text-gray_secondry  min-w-[60vw] ">

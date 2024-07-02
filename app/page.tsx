@@ -1,11 +1,16 @@
-import { Button } from "@nextui-org/button"
+
+import Slider_Entertainment from "@/components/Slider_Entertainment"
+import Slider_Trending from "@/components/Slider_Trending"
+import Slider_PhotoGallery from "@/components/Slider_PhotoGallery"
+
 
 const page = () => {
   return (
-     <div className="h-[100vh] w-80 bg-red-700">
-      hello
-
-     </div>
+    <>
+ <Slider_Entertainment />
+ <Slider_Trending />
+ <Slider_PhotoGallery />
+ </>
   )
 }
 

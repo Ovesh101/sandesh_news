@@ -1,20 +1,12 @@
 "use client"
 import { useState, useEffect } from "react";
-import { SectionWrapper } from "./HOC";
 import {
   Dropdown,
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
 } from "./Dropdown";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faLinkedin,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+import SecondaryHeader from "./SecondaryHeader/SecondaryHeader";
 
 import Image from "next/image";
 
@@ -207,30 +199,12 @@ function Header() {
           </div>
         </nav>
       </div>
-   <div
-        className={`flex px-48 my-1 justify-between bg-white items-center ${
-          isSticky ? "sticky top-14 z-50 shadow-md transition-all duration-500 ease-in-out" : ""
-        }`}
-      >
-        <button className="bg-primary text-white text-sm  py-1 px-3">
-          NEW FLASH
-        </button>
-
-        <div className="flex items-center space-x-4">
-          <Image
-            src="/Images/monsoon.jpg"
-            width={200}
-            height={200}
-            alt="monsoon"
-          />
-          <FontAwesomeIcon icon={faFacebook} className="text-blue-600" />
-          <FontAwesomeIcon icon={faTwitter} className="text-blue-400" />
-          <FontAwesomeIcon icon={faInstagram} className="text-pink-600" />
-          <FontAwesomeIcon icon={faLinkedin} className="text-blue-700" />
-          <FontAwesomeIcon icon={faWhatsapp} className="text-green-700" />
-          {/* Add more social media icons here */}
+      <div className={`w-[100vw] flex  my-1 justify-center ${
+          isSticky ? "sticky bg-white top-14 z-50 shadow-sm shadow-zinc-200 transition-all duration-500 ease-in-out" : ""
+        }`}>
+        <SecondaryHeader/>
         </div>
-      </div>
+   
     </>
   );
 }
