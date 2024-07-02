@@ -18,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <head>
         {/* Add your head content here */}
       </head>
@@ -27,6 +28,7 @@ export default function RootLayout({
 
         <Footer />
       </body>
+
     </html>
   );
 }
