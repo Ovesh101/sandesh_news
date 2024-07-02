@@ -1,15 +1,17 @@
 
-import React from 'react'
-import Category from '@/Category/Category'
+import Slider_Entertainment from "@/components/Slider_Entertainment"
+import Slider_Trending from "@/components/Slider_Trending"
+import Slider_PhotoGallery from "@/components/Slider_PhotoGallery"
 
 
 const page = () => {
   return (
-    <div className='w-[100vw] h-[100vh]'>
-     <Category/>
-    </div>
+    <>
+ <Slider_Entertainment />
+ <Slider_Trending />
+ <Slider_PhotoGallery />
+ </>
   )
 }
 
 export default page
-
