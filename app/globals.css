@@ -7,6 +7,13 @@
     min-height: 280px !important; 
     margin-top: 1rem;
   }
+  .custom-carousel-item-astrology {
+    
+    width: 174px !important; 
+    min-height: 100px !important; 
+    margin-top: 1rem;
+
+  }
 
   @keyframes marquee {
     0% {
