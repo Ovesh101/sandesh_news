@@ -171,3 +171,93 @@ export const PhotoGallery: SliderType[] = [
     },
 
   ];
+
+  export interface AstrologyType extends SliderType{
+    Gujarati:string;
+  }
+export const Astrology:AstrologyType[] = [
+  {
+    Gujarati:"Hello",
+    Heading:"Astrology",
+    SubHeading:"Aries",
+    Image: "/Images/Astrology/1.jpg",
+    Description: "માનસિક અજંપાની લાગણીમાંથી બહાર આવી શકશો. અગત્યનું કામ હાથ ધરી શકશો.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Tauras",
+    Image: "/Images/Astrology/2.jpg",
+    Description:"આપના આદર્યા કામો અધૂરાં ન રહી જાય તે માટે વઘુ પ્રયત્નશીલ રહેજો, ગૃહવિવાદ ટાળજો.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Gemini",
+    Image: "/Images/Astrology/3.jpg",
+    Description: "આપના પ્રયત્નો ફળદાયી નીવડે, ગૃહજીવનમાં ગેરસમજ ન વધવા દેશો,ચિંતાનો ઉકેલ સાંપડે.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Cancer",
+    Image: "/Images/Astrology/4.jpg",
+    Description: "આપના મનની મુરાદ મનમાં રહી જતી લાગે, ખર્ચ, વ્યય વધવા ન પામે તે જોજો.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Leo",
+    Image: "/Images/Astrology/5.jpg",
+    Description:   "આવક સામે જાવક વધતી જણાય, નાણાભીડનો અહેસાસ, સ્નેહીથી મિલન.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:" Virgo",
+    Image: "/Images/Astrology/6.jpg",
+    Description: "ધાર્યા કામકાજો આડે વિઘ્ન વિલંબનો પ્રસંગ, ધીરજ જરૂરી માનજો, પ્રવાસ ફળદાયી.,",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Libra",
+    Image: "/Images/Astrology/7.jpg",
+    Description:"સામાજિક, કૌટુંબિક કે અન્ય જવાબદારીઓને પાર પાજી શકશો, ધીમું ફળ મળતું જણાય.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Scorpio",
+    Image: "/Images/Astrology/8.jpg",
+    Description:"મનનો પરિતાપ અને રૂકાવટો દૂર થતાં રાહત અનુભવાય,નાણાભીડનો ઉકેલ સૂઝે.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Capricorn",
+    Image: "/Images/Astrology/9.jpg",
+    Description:  "આપની અગત્યની કામગીરીને આગળ ધપાવી શકશો, પ્રયત્નો ફળદાયી જણાય, સ્વજન અંગે સાનુકૂળતા.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Sagittarius:",
+    Image: "/Images/Astrology/10.jpg",
+    Description: "પ્રતિકૂળતા અને તણાવના સંજોગો હળવા થાય, આર્થિક સમસ્યાને સૂલઝાવી શકશો.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:" Aquarius",
+    Image: "/Images/Astrology/11.jpg",
+    Description: "શાંતિ અને સ્વસ્થતા જાળવવા કોશિશ કરજો, લાગણી પર કાબુ જરૂરી બને, વ્યવસાયિક બાબતનો હલ મળે.",
+  },
+  {
+    Gujarati:"hello",
+    Heading:"Astrology",
+    SubHeading:"Pisces",
+    Image: "/Images/Astrology/12.jpg",
+    Description: "ધીરજના ફળ મીઠાં ચાખી શકશો, અગત્યની વ્યક્તિ ઉપયોગી બને, મિત્ર મુરબ્બીથી સહકાર, પ્રવાસ."
+  },
+]

@@ -19,7 +19,7 @@ const Share = () => {
 
   return (
     <div 
-      className="absolute bottom-[9px] right-5 cursor-pointer"
+      
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
